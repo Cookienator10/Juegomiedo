@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijera</title>
+    <link rel="stylesheet" href="saw.css">
+</head>
+<body>
+    <h1>Piedra, Papel o Tijera</h1>
+    <h2>¡Seras capaz de liberarte a ti o tu compañero! si no; !moriran¡</h2>
+    <div id="jugador">
+        <h3>Jugador</h3>
+        <button onclick="jugar('piedra')">Piedra</button>
+        <button onclick="jugar('papel')">Papel</button>
+        <button onclick="jugar('tijera')">Tijera</button>
+    </div>
+    <div id="maquina">
+        <h3>Máquina</h3>
+        <p id="maquinaSeleccion"></p>
+    </div>
+    <div id="resultado">
+        <h3>Resultado</h3>
+        <p id="resultadoTexto"></p>
+    </div>
+    <div id="puntajes">
+        <h3>Puntajes</h3>
+        <p id="puntajeJugador">Jugador: 0</p>
+        <p id="puntajeMaquina">Máquina: 0</p>
+    </div>
+
+    <script src="saw.js"></script>
+</body>
+</html>
+
+
